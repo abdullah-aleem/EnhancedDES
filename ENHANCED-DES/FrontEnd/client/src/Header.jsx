@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
   return (
-    <div className='flex justify-between items-center bg-gray-600 p-4 rounded-full bg-opacity-50 shadow-2xl sha'>
+    <div className='flex justify-between items-center bg-gray-600 p-4 rounded-full bg-opacity-50 shadow-2xl '>
         <div>
         <h1 className='text-2xl font-bold text-gray-500 '>EnhancedDES</h1>
         </div>

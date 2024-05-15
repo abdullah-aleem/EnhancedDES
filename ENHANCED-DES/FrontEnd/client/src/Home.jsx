@@ -45,7 +45,7 @@ function Home() {
     },
   ];
   return (
-    <div className='h-screen w-full flex flex-col justify-center  '>
+    <div className='flex-1 w-full flex flex-col justify-center  '>
       <h1 className='text-8xl text-gray-400'>Enhanced-DES</h1>
       
       <TypewriterEffect words={words} />

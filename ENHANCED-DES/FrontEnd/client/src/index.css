@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+input[type="email"],input[type="password"],input[type="text"],input[type="number"]{
+    @apply w-10/12 h-12 border-2 border-gray-600 my-1 py-2 px-3 rounded-2xl bg-gray-600 focus:outline-none focus:outline-purple-700 focus:border-purple-500
+}
+textarea{
+    @apply w-10/12 h-80 my-1 py-2 px-3 rounded-2xl border-2 border-gray-600 bg-gray-600  focus:outline-none focus:outline-purple-700 focus:border-purple-500
+}
+button{
+    @apply w-40 h-12 bg-gray-700 hover:bg-purple-700 transition-colors duration-300 ease-in-out text-gray-300 font-bold rounded-2xl my-1
+}

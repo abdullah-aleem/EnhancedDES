@@ -5,8 +5,10 @@ import Layout from './Layout'
 import Home from './Home'
 import Encrypt from './Encrypt'
 import Decrypt from './Decrypt'
+import axios from 'axios'
 function App() {
-
+  axios.defaults.baseURL='http://localhost:4000'
+  axios.defaults.withCredentials=true
   return (
     <Routes>
       <Route path="/" element={<Layout />} >
