@@ -9,9 +9,9 @@ function Header() {
         </div>
 
         <div>
-        <Link to='/' className='p-4 text-gray-500'>Home</Link>
-        <Link to='/encrypt' className='p-4 text-gray-500'>Encrypt</Link>
-        <Link to='/decrypt' className='p-4 text-gray-500'>Decrypt</Link>
+        <Link to='/' className='p-4 text-gray-500 hover:text-purple-600 '>Home</Link>
+        <Link to='/encrypt' className='p-4 text-gray-500 hover:text-purple-600'>Encrypt</Link>
+        <Link to='/decrypt' className='p-4 text-gray-500 hover:text-purple-600'>Decrypt</Link>
         </div>
         
     </div>
